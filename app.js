@@ -5,7 +5,7 @@ import contactRoute from "./routes/contact.js";
 const app = express();
 
 // Middleware
-app.use(cors({ origin: "http://localhost:5173" }));
+app.use(cors({ origin: "https://portfolio-frontend-delta-ruby.vercel.app" }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
